@@ -79,7 +79,7 @@ h1 {
     margin: 0;
 }
 
-p {
+.hero-text {
     font-size: 18px;
     color: #E5E7EB;
     padding-right: 70px;
@@ -95,4 +95,44 @@ button {
     border: none;
     font-weight: 700;
     border-radius: 8px;
+}
+
+/* Second Section */
+.second {
+    flex-direction: column;
+    padding: 0 200px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+}
+
+.small-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 220px;
+}
+
+.bg-container {
+    height: 180px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.small-container-text {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #1F2937;
 }
